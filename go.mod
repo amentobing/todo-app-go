@@ -1,4 +1,4 @@
-module github.com/amentobing/todo-app
+module github.com/amentobing/todo-app-go
 
 go 1.23.3
 
