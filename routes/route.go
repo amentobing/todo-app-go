@@ -6,5 +6,5 @@ func Setup() {
     app.Get("/", func(c *fiber.Ctx) {
         c.Send("Hello, World!")
     })
-    app.Listen(3000)
+    app.Listen("localhost:5000")
 }
